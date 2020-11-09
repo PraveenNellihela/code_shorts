@@ -20,11 +20,30 @@
   text-decoration: none;
 }
 
+.bg-home {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1544180252-f47159b6b86e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80");
+
+  /* Full height */
+  
+ 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+#tagline-main #tagline-sub{
+  color: black;
+}
+
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
 
 .product-device {
+
   position: absolute;
   right: 10%;
   bottom: -30%;
